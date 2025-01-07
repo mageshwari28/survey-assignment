@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Satisfaction Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Membership Satisfaction Survey</h1>
+        <form>
+            <div class="row">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            
+           
+            <input type="text" placeholder="Street Address" required>
+            <div class="row">
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="Region" required>
+            </div>
+            <input type="text" placeholder="Postal/Zip Code" required>
+
+            
+            <select required>
+                <option value="" disabled selected>Country</option>
+                <option value="romania">Romania</option>
+            </select>
+            <input type="tel" placeholder="Phone" required>
+            <input type="text" placeholder="Account Number" required>
+            <input type="email" placeholder="Email Address" required>
+            <p>1. How long have you been a member of X company?</p>
+            <label><input type="radio" name="membership-duration" value="less-than-a-year" required> Less than a year</label>
+            <label><input type="radio" name="membership-duration" value="1-5-years"> 1-5 years</label>
+            <label><input type="radio" name="membership-duration" value="6-10-years"> 6-10 years</label>
+            <label><input type="radio" name="membership-duration" value="11-19-years"> 11-19 years</label>
+            <label><input type="radio" name="membership-duration" value="20+-years"> 20+ years</label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
